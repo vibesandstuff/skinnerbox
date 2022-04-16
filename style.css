@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   background: rgb(131,58,180);
-  background-image: linear-gradient(to right top, #008080, #9C879E, #E59487, #6679F9);
+  background-image: linear-gradient(to right top, #008080, #6679F9, #9C879E, #E59487);
   color: white;
   height: 100%;
 }
