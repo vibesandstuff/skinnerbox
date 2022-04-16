@@ -10,15 +10,15 @@
   <h1>{{title}}</h1>
   <table class='invites'>
   <tr>
-    <th>mint price</th>
-    <th>mint limit</th>
+    <th>Mint Price</th>
+    <th>Mint Limit</th>
     <th>Invite</th>
   </tr>
   {{#each items}}
     <tr>
       <td>{{eth}} ETH</td>
       <td>{{limit}}</td>
-      <td><a class='btn' href="mint.html#address={{address}}&key={{key}}">Go</td</a></td>
+      <td><a class='btn' href="mint.html#address={{address}}&key={{key}}">Mint Now</td</a></td>
     </tr>
   {{/each}}
   </table>
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const placeholder = await f0.placeholder()
     const invites = await f0.myInvites()
     document.querySelector(".box").innerHTML = template({
-      title: `${name} Mint`,
+      title: `${name}`,
       image: placeholder.converted.image,
       items: Object.keys(invites).map((key, index) => {
         return {
