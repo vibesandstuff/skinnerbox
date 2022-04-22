@@ -50,8 +50,10 @@ h1 {
   box-sizing: border-box;
   letter-spacing: -1px;
 }
+
 h1 a {
   color: white;
+}
   
 h2 {
   margin: 0;
@@ -59,10 +61,11 @@ h2 {
   box-sizing: border-box;
   letter-spacing: -1px;
 }
-h2 a {
-  color: royalblue;
   
+h2 a {
+  color: yellow;
 }
+  
 .invite {
   overflow-wrap: break-word;
   word-wrap: break-word;
