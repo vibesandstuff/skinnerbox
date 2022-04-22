@@ -52,6 +52,16 @@ h1 {
 }
 h1 a {
   color: white;
+  
+h2 {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  letter-spacing: -1px;
+}
+h2 a {
+  color: royalblue;
+  
 }
 .invite {
   overflow-wrap: break-word;
