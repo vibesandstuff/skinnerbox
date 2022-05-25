@@ -4,9 +4,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(https://www.w3schools.com/images/lamp.jpg);
+  background: url(https://lh3.googleusercontent.com/Q8pRxHskbpSETCH2n6ShcqF2IbBjGRq8er_8VCR8p5LLyI0-W7ZYE3QadYrUoyaAQbgpOSboD_fCEsjB5znRU6Tzb9F0sxv5sKfNmtQ=s0);
   /*background: rgb(131,58,180);*/
-  background-image: url("https://www.w3schools.com/images/lamp.jpg");
+  background-image: url("https://lh3.googleusercontent.com/Q8pRxHskbpSETCH2n6ShcqF2IbBjGRq8er_8VCR8p5LLyI0-W7ZYE3QadYrUoyaAQbgpOSboD_fCEsjB5znRU6Tzb9F0sxv5sKfNmtQ=s0");
   color: white;
   height: 100%;
 }
@@ -17,6 +17,7 @@ body {
 .box > *, .minter > *{
   display: block;
   width: 100% !important;
+    background-image: url("https://www.w3schools.com/images/lamp.jpg");
   margin-bottom: 10px;
 }
 .nice-select {
@@ -35,6 +36,7 @@ button {
 .container {
   max-width: 800px;
   margin: 50px auto;
+  background: rgb(131,58,180);
 }
 a {
   color: royalblue;
