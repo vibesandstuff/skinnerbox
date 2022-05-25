@@ -8,7 +8,7 @@ body {
   /*background: rgb(131,58,180);*/
   background-image: url("https://lh3.googleusercontent.com/Q8pRxHskbpSETCH2n6ShcqF2IbBjGRq8er_8VCR8p5LLyI0-W7ZYE3QadYrUoyaAQbgpOSboD_fCEsjB5znRU6Tzb9F0sxv5sKfNmtQ=s0");
   color: white;
-  height: 100%;
+  height: 50%;
 }
 .box {
   max-width: 300px;
@@ -17,7 +17,7 @@ body {
 .box > *, .minter > *{
   display: block;
   width: 100% !important;
-    background-image: url("https://www.w3schools.com/images/lamp.jpg");
+  background: rgb(131,58,180);
   margin-bottom: 10px;
 }
 .nice-select {
