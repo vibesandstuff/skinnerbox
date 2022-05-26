@@ -4,14 +4,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(https://lh3.googleusercontent.com/Q8pRxHskbpSETCH2n6ShcqF2IbBjGRq8er_8VCR8p5LLyI0-W7ZYE3QadYrUoyaAQbgpOSboD_fCEsjB5znRU6Tzb9F0sxv5sKfNmtQ=s0);
+    background: rgb(131,58,180);
   /*background: rgb(131,58,180);*/
-  background-image: url("https://lh3.googleusercontent.com/Q8pRxHskbpSETCH2n6ShcqF2IbBjGRq8er_8VCR8p5LLyI0-W7ZYE3QadYrUoyaAQbgpOSboD_fCEsjB5znRU6Tzb9F0sxv5sKfNmtQ=s0");
+  /*background-image: url("https://lh3.googleusercontent.com/Q8pRxHskbpSETCH2n6ShcqF2IbBjGRq8er_8VCR8p5LLyI0-W7ZYE3QadYrUoyaAQbgpOSboD_fCEsjB5znRU6Tzb9F0sxv5sKfNmtQ=s0");*/
   color: white;
   height: 50%;
 }
 .box {
-  max-width: 800px;
+  max-width: 300px;
   text-align: center;
 }
 .box > *, .minter > *{
