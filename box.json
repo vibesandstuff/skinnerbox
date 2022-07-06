@@ -1,4 +1,7 @@
 {
-  "network": "main",
-  "contract": "0x28eD82815F01c0E6e60dE38591a47DF723567ffA"
+  "network": "rinkeby",
+  "contract": "0x8745DFbaC9CF85d22eBb5088584ae948A19dED70"
+  
+//  "network": "main",
+//  "contract": "0x28eD82815F01c0E6e60dE38591a47DF723567ffA"
 }
